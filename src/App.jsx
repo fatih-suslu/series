@@ -7,7 +7,11 @@ function App() {
 
   return (
     <div className="mainpage-container">
-      <h1 className="title">Selamlar</h1>
+      <div className="left-column"></div>
+      <div className="center-column">
+        <h1 className="title">Selamlar</h1>
+      </div>
+      <div className="right-column"></div>
     </div>
   );
 }
