@@ -11,18 +11,19 @@
 .left-column {
   background-color: blue;
   flex: 1;
-  border-radius: 5%;
+  border-radius: 2rem;
 }
 
 .right-column {
   background-color: red;
   flex: 1;
-  border-radius: 5%;
+  border-radius: 2rem;
 }
 
 .center-column {
   background-color: white;
+  flex: 2;
   align-self: center;
-  border-radius: 5%;
+  border-radius: 2rem;
   padding: 1rem;
 }
