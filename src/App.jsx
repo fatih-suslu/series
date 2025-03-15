@@ -1,19 +1,14 @@
 import "./reset.css";
 import "./App.css";
-import { Link, Route, Switch } from "react-router-dom/cjs/react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
+import Anasayfa from "./components/Anasayfa";
 
 function App() {
   return (
     <main>
       <Switch>
         <Route path="/" exact>
-          <div className="mainpage-container">
-            <div className="left-column"></div>
-            <div className="center-column">
-              <h1 className="title">Selamlar</h1>
-            </div>
-            <div className="right-column"></div>
-          </div>
+          <Anasayfa />
         </Route>
         <Route path="/details">
           <div className="details-container">

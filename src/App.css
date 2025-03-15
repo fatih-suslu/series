@@ -1,23 +1,24 @@
 .mainpage-container {
   width: 100vw;
   height: 100vh;
-  text-align: center;
   background-color: wheat;
   display: flex;
   padding: 1rem;
   gap: 1rem;
 }
 
-.left-column {
-  background-color: blue;
+.left-column,
+.right-column {
+  background-color: grey;
   flex: 1;
-  border-radius: 2rem;
+  border-radius: 1rem;
+  overflow: auto;
+  padding: 1rem;
 }
 
-.right-column {
-  background-color: red;
-  flex: 1;
-  border-radius: 2rem;
+.left-column h2,
+.right-column h2 {
+  margin-bottom: 1rem;
 }
 
 .center-column {
@@ -26,4 +27,45 @@
   align-self: center;
   border-radius: 2rem;
   padding: 1rem;
+  height: 50%;
+}
+
+/* details page */
+
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.details {
+  background-color: wheat;
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.series-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+
+.series-item img {
+  width: 30%;
+  display: block;
+}
+
+button {
+  background-color: orange;
+  color: black;
+  border: 0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
